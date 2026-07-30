@@ -1,32 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DMTO">
-  <rect width="64" height="64" rx="12" fill="#071c24"/>
-  <!-- toit -->
+  <!-- fond clair -->
+  <rect width="64" height="64" rx="14" fill="#e8f2f5"/>
+  <!-- toit ambre -->
   <path
-    d="M12 30 L32 12 L52 30"
-    fill="none"
-    stroke="#e8a54b"
-    stroke-width="3.5"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    d="M10 32 L32 11 L54 32 Z"
+    fill="#e8a54b"
   />
-  <!-- façade -->
+  <!-- façade teal -->
+  <rect x="16" y="30" width="32" height="26" rx="2" fill="#3d9e8f"/>
+  <!-- porte claire -->
+  <rect x="28" y="40" width="8" height="16" rx="1.5" fill="#e8f2f5"/>
+  <!-- pastille euro -->
+  <circle cx="48" cy="18" r="11" fill="#fff"/>
+  <circle cx="48" cy="18" r="11" fill="none" stroke="#0c2a35" stroke-width="1.5" opacity="0.15"/>
   <path
-    d="M16 29.5 V50 H48 V29.5"
+    d="M52.6 13.4c-1-1.6-2.7-2.5-4.7-2.5-3.1 0-5.4 2.4-5.4 5.7 0 3.3 2.3 5.7 5.4 5.7 2 0 3.7-.9 4.7-2.5"
     fill="none"
-    stroke="#e8f2f5"
-    stroke-width="3"
-    stroke-linejoin="round"
-  />
-  <!-- porte -->
-  <rect x="28" y="38" width="8" height="12" rx="1" fill="#3d9e8f"/>
-  <!-- pastille euro (recettes / mutation) -->
-  <circle cx="46" cy="18" r="9" fill="#3d9e8f"/>
-  <path
-    d="M50.2 14.2c-.9-1.4-2.4-2.2-4.2-2.2-2.8 0-4.8 2.1-4.8 5.1 0 3 2 5.1 4.8 5.1 1.8 0 3.3-.8 4.2-2.2"
-    fill="none"
-    stroke="#071c24"
-    stroke-width="2"
+    stroke="#0c2a35"
+    stroke-width="2.2"
     stroke-linecap="round"
   />
-  <path d="M39.8 16.8 H47.2 M39.8 20.2 H47.2" stroke="#071c24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40.8 16.2 H49.4 M40.8 20 H49.4" stroke="#0c2a35" stroke-width="2.2" stroke-linecap="round"/>
 </svg>
