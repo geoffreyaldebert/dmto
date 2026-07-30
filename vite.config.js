@@ -21,7 +21,7 @@ function spaFallback404() {
 // https://vite.dev/config/
 // base `/dmto/` pour https://<user>.github.io/dmto/
 export default defineConfig({
-  base: '/dmto/',
+  base: '/',
   plugins: [vue(), spaFallback404()],
   optimizeDeps: {
     include: ['maplibre-gl'],
