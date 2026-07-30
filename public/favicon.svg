@@ -1,5 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" fill="#071c24"/>
-  <path d="M12 44 L32 14 L52 44 Z" stroke="#e8a54b" stroke-width="3" fill="none"/>
-  <circle cx="32" cy="38" r="4" fill="#3d9e8f"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DMTO">
+  <rect width="64" height="64" rx="12" fill="#071c24"/>
+  <!-- toit -->
+  <path
+    d="M12 30 L32 12 L52 30"
+    fill="none"
+    stroke="#e8a54b"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- façade -->
+  <path
+    d="M16 29.5 V50 H48 V29.5"
+    fill="none"
+    stroke="#e8f2f5"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+  <!-- porte -->
+  <rect x="28" y="38" width="8" height="12" rx="1" fill="#3d9e8f"/>
+  <!-- pastille euro (recettes / mutation) -->
+  <circle cx="46" cy="18" r="9" fill="#3d9e8f"/>
+  <path
+    d="M50.2 14.2c-.9-1.4-2.4-2.2-4.2-2.2-2.8 0-4.8 2.1-4.8 5.1 0 3 2 5.1 4.8 5.1 1.8 0 3.3-.8 4.2-2.2"
+    fill="none"
+    stroke="#071c24"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <path d="M39.8 16.8 H47.2 M39.8 20.2 H47.2" stroke="#071c24" stroke-width="2" stroke-linecap="round"/>
 </svg>
